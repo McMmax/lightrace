@@ -18,4 +18,4 @@ Refer to the component source code and tests in `libs/lightrace`.
 ---
 
 ## 📖 Canonical Documentation
-* **[`.bible/09-shared-libraries-and-apis`](file:///C:/Users/trapaholics/Documents/GitHub/.bible/09-shared-libraries-and-apis)**
+* **[`.bible/09-shared-libraries-and-apis`](.bible/09-shared-libraries-and-apis)**
