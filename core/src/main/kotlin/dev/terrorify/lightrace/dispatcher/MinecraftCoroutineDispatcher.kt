@@ -16,12 +16,12 @@ internal class MinecraftCoroutineDispatcher : CoroutineDispatcher() {
 
     init {
         MinecraftServer.getSchedulerManager().scheduleNextProcess {
-            tickThreadId = Thread.currentThread().id
+            tickThreadId = Thread.currentThread().threadId()
         }
     }
 
     override fun isDispatchNeeded(context: CoroutineContext): Boolean {
-        return Thread.currentThread().id != tickThreadId
+        return Thread.currentThread().threadId() != tickThreadId
     }
 
     override fun dispatch(context: CoroutineContext, block: Runnable) {
