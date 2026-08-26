@@ -25,7 +25,7 @@ repositories {
 dependencies {
     // The Stomzy engine core (this repo IS a Minestom fork — net.minestom.server
     // is compiled at the composite-build root, not an external artifact).
-    compileOnly(rootProject)
+    compileOnly(project(":"))
     compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
 

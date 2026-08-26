@@ -23,7 +23,7 @@ dependencies {
     api(project(":lightrace-api"))
 
     // The Stomzy engine core (this repo IS a Minestom fork).
-    implementation(rootProject)
+    implementation(project(":"))
     compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
 
