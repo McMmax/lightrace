@@ -1,0 +1,14 @@
+[package]
+name = "lightrace-core"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT"
+description = "Executor-neutral structured asynchronous operation core for Stomzy"
+
+[lib]
+path = "src/lib.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
+

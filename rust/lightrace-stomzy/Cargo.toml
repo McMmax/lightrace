@@ -1,0 +1,10 @@
+[package]
+name = "lightrace-stomzy"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+[dependencies]
+lightrace-core = { path = "../lightrace-core" }
+stomzy-runtime = { path = "../../../../stomzy/rust/runtime" }
